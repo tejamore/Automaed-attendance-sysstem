@@ -1,0 +1,29 @@
+{% extends "core/base.html" %}
+{% load static %}
+{% block content %}
+
+
+        <div class="col-md-3">
+         
+            <a target="_blank" class="scan" href="{% url 'details' %}"><input type="submit" class="profile-edit-btn m-2"
+        name="btnAddMore" value="Run Scanner" style="background-color: yellow;" /></a>
+
+        <a   href="{% url 'profiles' %}"><input type="submit" class ="profile-edit-btn m-2" name="btnAddMore" value="Profiles"  style="background-color: yellow;"/></a>
+           
+        
+        </div>
+    </div>
+    
+<script>
+    $(".scan").click(function () {
+        var postData = { csrfmiddlewaretoken: '{{ csrf_token }}' }
+        $.ajax({
+            url: "{% url 'scan' %}",
+            data: {
+
+            },
+        });
+    });
+</script>
+
+{% endblock content %}
