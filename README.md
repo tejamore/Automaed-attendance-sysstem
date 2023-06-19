@@ -8,7 +8,7 @@ this is the ml website created using OpenCV and python libraries this website he
 <body>
 
 <h1>Project View</h1>
-<img src="https://ibb.co/vJfX31w" alt="Girl in a jacket" width="500" height="600">
+<a href="https://ibb.co/vJfX31w"><img src="https://i.ibb.co/Cn4PbB1/Capturess.png" alt="Capturess" border="0"></a><br /><a target='_blank' href='https://nonprofitlight.com/md/calverton/adoptions-together-inc'>adoptions together</a><br />
 <h1>Power Point Presentation </h1>
 
 
