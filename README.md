@@ -7,8 +7,9 @@ this is the ml website created using OpenCV and python libraries this website he
 </head>
 <body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+<h1>Project View</h1>
+<img src="" alt="Girl in a jacket" width="500" height="600">
+<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
 
 </body>
 </html>
